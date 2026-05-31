@@ -94,6 +94,26 @@ Wallet for USDT/USDC on EVM: `0x8B9D88f5868B5D576524Abd53a4325F120e9aD2b`
 
 Request page: https://polyflow-samples.netlify.app/services.html
 
+## Sales Performance Analysis / KPI Cleanup Sprint
+
+For one focused sales CSV, pipeline export, revenue spreadsheet, or KPI cleanup task where the buyer needs quick data-quality checks and a concise analysis outline.
+
+Typical deliverables:
+
+- Duplicate opportunity and missing-owner checks
+- Closed-won revenue and open-pipeline summary
+- KPI cut recommendations
+- Data cleanup caveats
+- Redacted sample script or handoff notes
+
+Pricing: $50 for one focused sales performance analysis / KPI cleanup sprint.
+
+Public proof script: https://raw.githubusercontent.com/flowopslab/flowopslab/main/samples/sales-kpi-cleanup-check.py
+
+Wallet for USDT/USDC on EVM: `0x8B9D88f5868B5D576524Abd53a4325F120e9aD2b`
+
+Request page: https://polyflow-samples.netlify.app/services.html
+
 ## Python Backtest / Strategy-code Debugging Sprint
 
 For one focused Python backtest, rotation strategy, portfolio script, or strategy-code debugging task where the need is code correctness rather than trading advice.
