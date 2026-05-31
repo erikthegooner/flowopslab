@@ -15,6 +15,7 @@ Machine-readable service manifest: https://raw.githubusercontent.com/flowopslab/
 - Lightweight lead intake forms and Telegram bot setup
 - AI automation, DevOps triage, Python scripts, and GitHub Actions repair
 - Web research, lead-list QA, and lightweight desk research
+- Coding bounty, public repo, and small data task first-slice checks
 - Spreadsheet QA, Excel evaluator, and Google Sheets evaluator sprints
 - Sales performance analysis, KPI cleanup, and revenue spreadsheet checks
 - Python backtest, rotation-strategy code debugging, and strategy-code debugging
@@ -33,6 +34,7 @@ Machine-readable service manifest: https://raw.githubusercontent.com/flowopslab/
 - Polymarket quick scan: $19 USDT
 - Polymarket full one-market report: $50 USDT
 - Research / lead-list QA sprint: $50 USDT/USDC
+- Coding bounty / data task first-slice sprint: $50 USDT/USDC
 - Spreadsheet QA / Google Sheets evaluator sprint: $50 USDT/USDC
 - Sales performance analysis / KPI cleanup sprint: $50 USDT/USDC
 - Python backtest / strategy-code debugging sprint: $50 USDT/USDC
