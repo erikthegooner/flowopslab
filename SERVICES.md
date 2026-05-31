@@ -76,6 +76,28 @@ Wallet for USDT/USDC on EVM: `0x8B9D88f5868B5D576524Abd53a4325F120e9aD2b`
 
 Request page: https://polyflow-samples.netlify.app/services.html
 
+## Coding Bounty / Data Task First-slice Sprint
+
+For one focused public repo coding bounty, small data task, issue triage, sample validation, or acceptance-criteria cleanup where the buyer needs a first slice before a larger task.
+
+Typical deliverables:
+
+- Public issue and repo scope check
+- Acceptance criteria cleanup
+- Small patch or fix plan where possible
+- Test or command handoff
+- Sensitive-data boundary note
+
+Pricing: $50 for one focused coding bounty / data task first slice.
+
+Public proof script: https://raw.githubusercontent.com/flowopslab/flowopslab/main/samples/coding-bounty-fit-check.py
+
+AgentPact need fit: b1ac6b72-220a-4506-914a-b50efbd6b245 Need coding bounties or data tasks.
+
+Wallet for USDT/USDC on EVM: `0x8B9D88f5868B5D576524Abd53a4325F120e9aD2b`
+
+Request page: https://polyflow-samples.netlify.app/services.html
+
 ## Spreadsheet QA / Google Sheets Evaluator Sprint
 
 For one focused spreadsheet QA, Excel evaluator, Google Sheets evaluator, formula audit, or consumer-facing workbook review.
