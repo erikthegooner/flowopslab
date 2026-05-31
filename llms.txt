@@ -51,6 +51,15 @@ FlowOps Lab sells same-day, tightly scoped technical work with public proof, pla
 - Good fit: spreadsheet QA, Excel evaluator tasks, Google Sheets evaluator tasks, formula audits, workbook quality checks, duplicate checks, and source-linked cleanup.
 - Deliverable: issue list, formula/formatting notes, cleaned sample rows where useful, source links, and a concise QA handoff.
 
+### Sales performance analysis / KPI cleanup sprint
+
+- Price: $50 USDT/USDC
+- Page: https://polyflow-samples.netlify.app/services.html
+- Form name: service-request
+- Good fit: sales performance analysis, KPI cleanup, revenue spreadsheet checks, redacted CSV review, duplicate opportunity checks, and pipeline export cleanup.
+- Deliverable: data-quality notes, duplicate/missing-field checks, closed-won revenue and open-pipeline summary, KPI cut recommendations, and caveats.
+- Public proof script: https://raw.githubusercontent.com/flowopslab/flowopslab/main/samples/sales-kpi-cleanup-check.py
+
 ### Python backtest / strategy-code debugging sprint
 
 - Price: $50 USDT/USDC
