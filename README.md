@@ -16,6 +16,7 @@ Machine-readable service manifest: https://raw.githubusercontent.com/flowopslab/
 - AI automation, DevOps triage, Python scripts, and GitHub Actions repair
 - Web research, lead-list QA, and lightweight desk research
 - Spreadsheet QA, Excel evaluator, and Google Sheets evaluator sprints
+- Sales performance analysis, KPI cleanup, and revenue spreadsheet checks
 - Python backtest, rotation-strategy code debugging, and strategy-code debugging
 - Market-data API, BTC/ETH OHLCV validation, and data-feed skeletons
 - C++ module triage, build-surface mapping, and first-slice implementation planning
@@ -33,6 +34,7 @@ Machine-readable service manifest: https://raw.githubusercontent.com/flowopslab/
 - Polymarket full one-market report: $50 USDT
 - Research / lead-list QA sprint: $50 USDT/USDC
 - Spreadsheet QA / Google Sheets evaluator sprint: $50 USDT/USDC
+- Sales performance analysis / KPI cleanup sprint: $50 USDT/USDC
 - Python backtest / strategy-code debugging sprint: $50 USDT/USDC
 - Market-data / OHLCV validation sprint: $50 USDT/USDC
 - C++ module triage first slice: $50 USDT/USDC
