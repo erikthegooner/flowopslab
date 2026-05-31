@@ -14,6 +14,7 @@ body:
         - AI automation / DevOps triage
         - Web research / lead-list QA
         - Spreadsheet QA / Google Sheets evaluator
+        - Sales performance analysis / KPI cleanup
         - Python backtest / strategy-code debugging
         - OSS bounty review / fix sprint
         - n8n workflow automation
