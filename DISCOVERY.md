@@ -13,7 +13,7 @@ Same-day $50 automation, data, OSS/CI, n8n, and code-fix sprints with public pro
 
 ## Keywords
 
-automation, n8n, python, devops, github-actions, data-cleanup, market-data, oss, ci, spreadsheet, AI automation, webhook, GitHub Actions, C++ module, OHLCV, strategy-code debugging
+automation, n8n, python, devops, github-actions, data-cleanup, market-data, oss, ci, spreadsheet, sales performance analysis, KPI cleanup, AI automation, webhook, GitHub Actions, C++ module, OHLCV, strategy-code debugging
 
 ## Payment
 
