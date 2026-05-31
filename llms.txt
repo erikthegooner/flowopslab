@@ -51,6 +51,16 @@ FlowOps Lab sells same-day, tightly scoped technical work with public proof, pla
 - Good fit: spreadsheet QA, Excel evaluator tasks, Google Sheets evaluator tasks, formula audits, workbook quality checks, duplicate checks, and source-linked cleanup.
 - Deliverable: issue list, formula/formatting notes, cleaned sample rows where useful, source links, and a concise QA handoff.
 
+### Coding bounty / data task first-slice sprint
+
+- Price: $50 USDT/USDC
+- Page: https://polyflow-samples.netlify.app/services.html
+- Form name: service-request
+- Good fit: coding bounty, data task, public repo issue triage, acceptance criteria cleanup, small bugfix scoping, and sample validation.
+- Deliverable: public repo/issue scope check, acceptance criteria notes, one narrow patch or fix plan where possible, test command, and sensitive-data boundary.
+- Public proof script: https://raw.githubusercontent.com/flowopslab/flowopslab/main/samples/coding-bounty-fit-check.py
+- AgentPact need fit: b1ac6b72-220a-4506-914a-b50efbd6b245 Need coding bounties or data tasks.
+
 ### Sales performance analysis / KPI cleanup sprint
 
 - Price: $50 USDT/USDC
