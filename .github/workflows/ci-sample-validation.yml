@@ -1,0 +1,77 @@
+name: CI Sample Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  python-validation:
+    name: Python sample validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check Python syntax for all sample scripts
+        run: |
+          echo "=== Syntax check ==="
+          for script in samples/*.py; do
+            python3 -m py_compile "$script" && echo "  OK  $script" || exit 1
+          done
+
+      - name: Run coding-bounty-fit-check.py self-test
+        run: python3 samples/coding-bounty-fit-check.py --self-test
+
+      - name: Run sales-kpi-cleanup-check.py self-test
+        run: python3 samples/sales-kpi-cleanup-check.py --self-test
+
+      - name: Run strategy-code-debug-check.py self-test
+        run: python3 samples/strategy-code-debug-check.py --self-test
+
+      - name: Run market-data-ohlcv-validator.py offline
+        run: python3 samples/market-data-ohlcv-validator.py --offline
+
+      - name: Run cpp-module-surface-scan.py self-test
+        run: python3 samples/cpp-module-surface-scan.py --self-test
+
+  yaml-validation:
+    name: YAML syntax validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate YAML files
+        run: |
+          echo "=== Checking YAML files ==="
+          find . -name "*.yml" -o -name "*.yaml" | grep -v /.git/ | while read -r f; do
+            python3 -c "import yaml,sys; yaml.safe_load(open('$f')); print('  OK  $f')" || exit 1
+          done
+
+  markdown-validation:
+    name: Markdown check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check markdown files are readable
+        run: |
+          echo "=== Checking Markdown files ==="
+          for md in $(find . -name "*.md" -not -path "./.git/*"); do
+            if [ -s "$md" ]; then
+              echo "  OK  $md ($(wc -c < "$md") bytes)"
+            else
+              echo "WARN  $md is empty"
+            fi
+          done
+
+      - name: Check README has no broken placeholders
+        run: python3 -c "fd=open('README.md'); content=fd.read(); assert 'TODO' not in content; print('README.md looks clean')"
